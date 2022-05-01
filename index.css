@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+#addNewTask { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#addNewTask input { 
+    width: auto;
+}
+#tasks_container{ 
+    text-align: center;
+    width: auto;
+}
+.form-control-plaintext { 
+    text-align: center;
+}
+.singleTask { 
+    padding: 0.5rem;
+}
+.temp { 
+    margin: 0.5rem;
+}
+#alert { 
+    position: absolute;
+    display: none;
+    opacity: 0;
+    transition: all 1s;
+}
