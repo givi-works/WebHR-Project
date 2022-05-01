@@ -97,9 +97,7 @@ const handleLocation = async () => {
                         taskInput.removeAttribute("readonly");
                         taskInput.focus();
                     } else {
-                        
                         const newValue = taskInput.value;
-
                         const taskId = (e.composedPath()[2]).getAttribute("id")
                         if (newValue.length > 0) { 
                             editButton.innerText = "Edit";
